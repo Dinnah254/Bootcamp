@@ -6,7 +6,9 @@
     <title>Contact</title>
 </head>
 <body>
+
     <header>
+
         <h1>contacts</h1>
         <nav>
             <a href="index.html">Home</a>
@@ -16,10 +18,27 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Get in Touch </h2>
-            <p>Feel free to reach out to me via email or social media.</p>
-        </section>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Enter Details to contact us</legend>
+            <label for=" name">first name</label>
+            <input type="text" name="firstname"id="firstname"><br>
+            <lable for="secondname">second Name</lable>
+            <input type="text"name="secondname" id="email"><br>
+           <label for="email">Email</label>
+           <input type="email"name="email" id="email"><br>
+           <label for="dob">Date</label>
+           <label for ="gender">Gender</label>
+           <input type="radio"name="gender"id="gender"value="male">male
+           <input type="radio"name="gender"id="gender"value="Female">Female
+           <input type="radio"name="gender"id="gender"value="other">other           
+           <lable for="message"> Message</lable>
+           <br> <textarea name="message" id="message"rows="4"></textarea><br>
+           <label for="message"
+
+            <button type="submit">submit</button>
+            </fieldset>
+                </form>
     </main>  
     </body>
     </html>
