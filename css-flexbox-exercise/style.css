@@ -25,6 +25,7 @@ header p{
     box-shadow: 10px 10px black;
     border-top:2px solid red ;
     text-align: center;
+    justify-content: center;
 }
 .card div{
    border-radius: 50%;
@@ -33,6 +34,10 @@ header p{
  background-color: purple;
  color: white;
  margin-bottom: 20px;
+display: flex;
+justify-content: center;
+ align-items: center;
+ margin: auto;
 }
 .card h2{
     color: darkred;
@@ -40,6 +45,7 @@ header p{
 .card p{
     color: aqua;
     text-transform: uppercase;
+    align-items: center;
 }
 .card ul{
     list-style-type: none;
@@ -61,3 +67,16 @@ header p{
 .card a:hover{
   background-color: darkturquoise; 
 }
+main{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap;
+    flex-direction: row; */
+    flex-flow: row wrap;
+}
+
+
+     
