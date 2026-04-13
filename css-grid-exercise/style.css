@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px 20px;
+}
+
+main section{
+    background-color: darkgoldenrod;
+    padding: 10px;
+}
+
+
+

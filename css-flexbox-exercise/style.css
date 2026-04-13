@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+header{
+    text-align: center;
+}
+header h1{
+    color: darkslategray;
+    font-size: 1.5rem;
+}
+header p{
+    color: lightgray;
+}
+.card{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px black;
+    border-top:2px solid red ;
+    text-align: center;
+    justify-content: center;
+}
+.card div{
+   border-radius: 50%;
+   height: 50px;
+   width: 50px;
+ background-color: purple;
+ color: white;
+ margin-bottom: 20px;
+display: flex;
+justify-content: center;
+ align-items: center;
+ margin: auto;
+}
+.card h2{
+    color: darkred;
+}
+.card p{
+    color: aqua;
+    text-transform: uppercase;
+    align-items: center;
+}
+.card ul{
+    list-style-type: none;
+
+}
+.card ul li{
+    background-color: lightcyan;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.card a {
+    text-decoration:none ;
+    background-color:darkslategray ;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.card a:hover{
+  background-color: darkturquoise; 
+}
+main{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap;
+    flex-direction: row; */
+    flex-flow: row wrap;
+}
+
+
+     

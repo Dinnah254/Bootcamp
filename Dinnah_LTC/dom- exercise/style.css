@@ -1,0 +1,23 @@
+container{
+    background-color: chocolate;
+    color: white;
+    height: 100vh;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+
+.btn{
+    background-color: darkolivegreen;
+    border: none;
+    padding: 5px;
+    color: white;
+}
+.in{
+    width: 300px;
+    color: darkolivegreen;
+}
